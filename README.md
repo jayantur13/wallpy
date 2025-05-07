@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="#-features">Features</a> • 
-  <a href="#-supported-desktops">Supported Desktops</a> • 
+  <a href="#%EF%B8%8F-supported-desktops">Supported Desktops</a> • 
   <a href="#-installation">Installation</a> • 
   <a href="#-binary-size-notice">Size Notice</a> • 
   <a href="#-usage">Usage</a> • 
-  <a href="#-development">Development</a>
+  <a href="#%EF%B8%8F-development">Development</a>
 </p>
 
 ## ✨ Features
