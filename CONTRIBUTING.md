@@ -1,6 +1,6 @@
 # Contributing to [wallpy](https://github.com/jayantur13/wallpy "wallpy")
 
-Before contributing also read [Code Of Conduct](https://github.com/jayantur13/wallpy/blob/master/CODE_OF_CONDUCT.md "Code Of Conduct").All types of input are welcome,whether it is -
+Before contributing also read [Code Of Conduct](https://github.com/jayantur13/wallpy/blob/main/CODE_OF_CONDUCT.md "Code Of Conduct").All types of input are welcome,whether it is -
 
 - To open a new issue.
 - Discussions.
@@ -13,7 +13,7 @@ Before contributing also read [Code Of Conduct](https://github.com/jayantur13/wa
 To contribute,follow the below steps -
 
 - Test your code thoroughly.
-- Fork and create your branch from master.
+- Fork and create your branch from main.
 - Update documentation or any other changes you made.
 - Lastly, make a pull request.
 
@@ -31,4 +31,4 @@ Create a new issue -
 
 # License
 
-By contributing, you agree that your contributions will be licensed under its [MIT License](https://github.com/jayantur13/wallpy/blob/master/LICENSE "MIT License").
+By contributing, you agree that your contributions will be licensed under its [MIT License](https://github.com/jayantur13/wallpy/blob/main/LICENSE "MIT License").
