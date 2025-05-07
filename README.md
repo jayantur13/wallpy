@@ -1,11 +1,17 @@
 <p align="center">
-  <img src="https://iili.io/3NbbEOb.th.png"/>
-    <p align="center">
-    <h3 align="center">Wallpy - Wallpaper Changer for Linux 🖼️</h3>
-    <h4 align="center"><b>Wallpy is a lightweight, GTK-based wallpaper changer for Linux desktops. It supports scheduled image rotation, automatic DE (Desktop Environment) detection for applying wallpapers correctly on GNOME, MATE, XFCE, and others</b>
-    </h4>
-    </p>
-    <p align="center"><a href="#features">Features</a> • <a href="#sde">Supported Desktops</a> • <a href="#installation">Installation</a> • <a href="#bsn">Size Notice</a> • <a href="#usage">Usage</a> • <a href="#development">Development</a></p>
+  <img src="https://iili.io/3NbbEOb.th.png" alt="Wallpy logo"/>
+</p>
+
+<h3 align="center">Wallpy - Wallpaper Changer for Linux 🖼️</h3>
+<h4 align="center"><b>Wallpy is a lightweight, GTK-based wallpaper changer for Linux desktops...</b></h4>
+
+<p align="center">
+  <a href="#-features">Features</a> • 
+  <a href="#-supported-desktops">Supported Desktops</a> • 
+  <a href="#-installation">Installation</a> • 
+  <a href="#-binary-size-notice">Size Notice</a> • 
+  <a href="#-usage">Usage</a> • 
+  <a href="#-development">Development</a>
 </p>
 
 ## ✨ Features
@@ -49,7 +55,7 @@ Wallpy uses PyInstaller to bundle all required GTK and Python dependencies into 
 
 > Because of this, the size of each package is ~105 MB (AppImage/.deb/.rpm), and the full release folder is ~350 MB.
 >
-> > 🧪 Advanced users may clone the repo and run Wallpy from source (Python 3.12+ & PyGObject required) to avoid the bundled binary size. See <a href="#development">Development</a>.
+> > 🧪 Advanced users may clone the repo and run Wallpy from source (Python 3.12+ & PyGObject required) to avoid the bundled binary size. See <a href="#-development">Development</a>.
 
 ### 💡 Usage
 
