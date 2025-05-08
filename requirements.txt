@@ -30,7 +30,7 @@ folder-color-common==0.0.86
 gpg==1.18.0
 httplib2==0.20.4
 idna==3.6
-Jinja2==3.1.2
+Jinja2==3.1.6
 jsonpatch==1.32
 jsonpointer==2.0
 jsonschema==4.10.3
