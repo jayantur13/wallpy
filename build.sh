@@ -3,7 +3,7 @@
 set -e  # Exit on any error
 
 APP_NAME="wallpy"
-VERSION="1.0.0"
+VERSION="1.0.1"
 ARCH="amd64"
 AUTHOR="Jayant Navrange"
 EMAIL="vu.vcareforu@gmail.com"
