@@ -54,9 +54,9 @@ class WallpyApp(Gtk.Application):
 
         # Only show window if not hidden
         if not getattr(self, 'hidden', False) and not getattr(self, 'auto_started', False):
-            self.window.show_all()
-            while Gtk.events_pending():
-                Gtk.main_iteration_do(False)
+            GLib.idle_add(self.window.show_all)
+            GLib.idle_add(self.window.present)
+
 
     def build_ui(self):
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
@@ -219,17 +219,26 @@ class WallpyApp(Gtk.Application):
         self.start_wallpaper_loop()
 
     def change_wallpaper(self):
+        if not self.image_folder:
+            self.log("No folder selected.")
+            return False
+
+        self.image_list = self.load_images(self.image_folder)  # 🔄 Refresh list
         if not self.image_list:
             self.log("No images found.")
             return False
+
+        self.current_index %= len(self.image_list)  # Prevent index out of bounds
         image = self.image_list[self.current_index]
         success = set_wallpaper(image)
         self.current_index = (self.current_index + 1) % len(self.image_list)
+
         if success:
             self.log(f"Wallpaper set: {os.path.basename(image)}")
         else:
             self.log("Failed to set wallpaper.")
         return True
+
 
     def log(self, msg):
         self.log_label.set_text(msg)

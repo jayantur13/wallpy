@@ -17,8 +17,8 @@
 ## ✨ Features
 
 - Automatically changes wallpaper at user-defined intervals
-- Select any folder of images (supports most formats)
-- Light/Dark mode wallpapers (planned via folder structure)
+- Select any directory of images (supports most formats)
+- Light/Dark mode wallpapers (planned via directory structure)
 - Runs in the background
 - Autostart on login (requires checkbox,checked)
 - Supports multiple desktop environments (MATE, GNOME, XFCE)
@@ -53,7 +53,7 @@ Wallpy uses PyInstaller to bundle all required GTK and Python dependencies into 
 - ✅ Wallpy works out-of-the-box on most Linux systems
 - ✅ No need to install Python or GTK manually
 
-> Because of this, the size of each package is ~105 MB (AppImage/.deb/.rpm), and the full release folder is ~350 MB.
+> Because of this, the size of each package is ~105 MB (AppImage/.deb/.rpm), and the full release directory is ~350 MB.
 >
 > > 🧪 Advanced users may clone the repo and run Wallpy from source (Python 3.12+ & PyGObject required) to avoid the bundled binary size. See <a href="#-development">Development</a>.
 
@@ -65,7 +65,7 @@ Wallpy uses PyInstaller to bundle all required GTK and Python dependencies into 
 gtk-launch Wallpy
 ```
 
-2. Select an image folder.
+2. Select an image directory.
 3. Choose an interval and hit "Start".
 4. Minimize to tray — it keeps running in background.
    > Note: Other than gtk-launch,there are other ways,find them on internet.
@@ -88,11 +88,15 @@ python3 -m wallpy.main
 
 - Before filing an issue make sure to search issues,after that make a new issue with full information of what you were doing and details about your linux distro.
 - You're welcome to contribute on open issues,feature requests,enhancements etc.
-- Read the [Guide](https://github.com/jayantur13/wallpy/blob/master/CONTRIBUTING.md "Guide") for more information.
+- Read the [Guide](https://github.com/jayantur13/wallpy/blob/main/CONTRIBUTING.md "Guide") for more information.
+
+## Changelog
+
+Read about all the updates in [Changelog](https://github.com/jayantur13/wallpy/blob/main/Changelog.md "Changelog").
 
 ## 📜 License
 
-Licensed under the MIT License. See [License](https://github.com/jayantur13/wallpy/blob/master/LICENSE "License") for details.
+Licensed under the MIT License. See [License](https://github.com/jayantur13/wallpy/blob/main/LICENSE "License") for details.
 
 ## 👤 Author
 
