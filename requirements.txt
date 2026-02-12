@@ -56,7 +56,7 @@ onboard==1.4.1
 packaging==25.0
 paramiko==3.4.0
 pexpect==4.9.0
-pillow==10.3.0
+pillow==12.1.1
 psutil==5.9.8
 ptyprocess==0.7.0
 pulsemixer==1.5.1
