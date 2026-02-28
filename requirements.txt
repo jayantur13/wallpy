@@ -98,4 +98,4 @@ websockets==10.4
 wheel==0.46.2
 xdg==5
 xkit==0.0.0
-yt-dlp==2024.7.7
+yt-dlp==2026.2.21
